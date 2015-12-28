@@ -7,3 +7,13 @@ gulp.task('wiredep', function () {
     .pipe(wiredep())
     .pipe(gulp.dest('src'));
 });
+
+gulp.task('serve', ['wiredep'], function () {
+  gulp.src('src')
+    .pipe(plugins.webserver({
+      host: 'localhost',
+      port: 8080,
+      directoryListing: false,
+      livereload: true
+    }));
+});
