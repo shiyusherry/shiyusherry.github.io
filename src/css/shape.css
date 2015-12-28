@@ -10,7 +10,7 @@
 
 .sun1 {
     display: inline-block;
-    background-image: url("/sprite/sun1.png");
+    background-image: url("../sprite/sun1.png");
     background-size: 20px;
     width: 20px;
     height: 20px;
@@ -18,7 +18,7 @@
 
 .sun2 {
     display: inline-block;
-    background-image: url("/sprite/sun2.png");
+    background-image: url("../sprite/sun2.png");
     background-size: 20px;
     width: 20px;
     height: 20px;
@@ -26,7 +26,7 @@
 
 .sun3 {
     display: inline-block;
-    background-image: url("/sprite/sun3.png");
+    background-image: url("../sprite/sun3.png");
     background-size: 20px;
     width: 20px;
     height: 20px;
