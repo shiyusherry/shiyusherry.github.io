@@ -11,9 +11,10 @@ body {
 }
 
 .word-item {
+    width: 500px;
     text-shadow: 3px 3px 5px rgba(0,0,0,0.15);
     font-family: open sans;
-    font-size: 30px;
+    font-size: 18px;
     color: rgba(255,255,255,0.8);
     line-height: 140%;
     font-weight: 100;
