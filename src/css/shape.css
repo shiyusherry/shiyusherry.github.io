@@ -1,96 +1,96 @@
 #rectangle {
-  position: absolute;
-  width: 2px;
-  height: 3000px;
-  background: rgba(255, 255, 255, 0.298039);
-  left: 37%;
-  margin-left: -1px;
+    position: absolute;
+    width: 2px;
+    height: 3000px;
+    background: rgba(255, 255, 255, 0.298039);
+    left: 37%;
+    margin-left: -1px;
 }
 
 #talkbubble-left {
-  margin-left: 220px;
-  width: 400px;
-  height: 280px;
-  background: #5ea3f3;
-  position: relative;
-  -moz-border-radius:    10px;
-  -webkit-border-radius: 10px;
-  border-radius:         10px;
-  margin-bottom: 30px;
+    margin-left: 220px;
+    width: 400px;
+    height: 280px;
+    background: #5ea3f3;
+    position: relative;
+    -moz-border-radius:    10px;
+    -webkit-border-radius: 10px;
+    border-radius:         10px;
+    margin-bottom: 30px;
 }
 
 #talkbubble-left:before {
-  content:"";
-  position: absolute;
-  left: 100%;
-  top: 26px;
-  width: 0;
-  height: 0;
-  border-top: 13px solid transparent;
-  border-left: 26px solid #5ea3f3;
-  border-bottom: 13px solid transparent;
+    content:"";
+    position: absolute;
+    left: 100%;
+    top: 26px;
+    width: 0;
+    height: 0;
+    border-top: 13px solid transparent;
+    border-left: 26px solid #5ea3f3;
+    border-bottom: 13px solid transparent;
 }
 
 #talkbubble-right {
-  margin-right: 220px;
-  width: 400px;
-  height: 280px;
-  background: #5ea3f3;
-  position: relative;
-  -moz-border-radius:    10px;
-  -webkit-border-radius: 10px;
-  border-radius:         10px;
-  margin-bottom: 30px;
+    margin-right: 220px;
+    width: 400px;
+    height: 280px;
+    background: #5ea3f3;
+    position: relative;
+    -moz-border-radius:    10px;
+    -webkit-border-radius: 10px;
+    border-radius:         10px;
+    margin-bottom: 30px;
 }
 
 #talkbubble-right:before {
-  content:"";
-  position: absolute;
-  right: 100%;
-  top: 26px;
-  width: 0;
-  height: 0;
-  border-top: 13px solid transparent;
-  border-right: 26px solid #5ea3f3;
-  border-bottom: 13px solid transparent;
+    content:"";
+    position: absolute;
+    right: 100%;
+    top: 26px;
+    width: 0;
+    height: 0;
+    border-top: 13px solid transparent;
+    border-right: 26px solid #5ea3f3;
+    border-bottom: 13px solid transparent;
 }
 
 @media screen and (max-width: 1366px) {
-  #talkbubble-left {
-    margin-left: 120px;
-  }
+    #talkbubble-left {
+        margin-left: 120px;
+    }
 
-  #talkbubble-right {
-    margin-right: 120px;
-  }
+    #talkbubble-right {
+        margin-right: 120px;
+    }
 }
 
 @media screen and (max-width: 1024px) {
-  #talkbubble-left {
-    margin-left: 20px;
-  }
+    #talkbubble-left {
+        margin-left: 20px;
+    }
 
-  #talkbubble-right {
-    margin-right: 20px;
-  }
+    #talkbubble-right {
+        margin-right: 20px;
+    }
 }
 
 @media screen and (max-width: 960px) {
-  #talkbubble-left {
-    width: 250px;
-  }
+    #talkbubble-left {
+        width: 250px;
+    }
 
-  #talkbubble-right {
-    width: 250px;
-  }
+    #talkbubble-right {
+        width: 250px;
+    }
 }
 
 @media screen and (max-width: 800px) {
-  #talkbubble-left {
-    width: 150px;
-  }
+    #talkbubble-left {
+        width: 150px;
+    }
 
-  #talkbubble-right {
-    width: 150px;
-  }
+    #talkbubble-right {
+        width: 150px;
+    }
 }
