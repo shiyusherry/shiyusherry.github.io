@@ -1,0 +1,19 @@
+{
+  "name": "sy-personal",
+  "version": "0.0.0",
+  "homepage": "https://github.com/yyypasserby/sy-personal",
+  "authors": [
+    "sy"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery.stellar": "~0.6.2"
+  }
+}
