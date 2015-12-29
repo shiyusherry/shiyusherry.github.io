@@ -13,6 +13,11 @@ gulp.task('copy:sprite', function () {
     .pipe(gulp.dest('dist/sprite'));
 });
 
+gulp.task('copy:video', function () {
+  return gulp.src('./src/video/**/*')
+    .pipe(gulp.dest('dist/video'));
+});
+
 gulp.task('clean:publish', function () {
   return gulp.src('.publish', { read: false })
     .pipe(plugins.rimraf());
@@ -40,7 +45,7 @@ gulp.task('ghPages', function () {
 });
 
 gulp.task('build', function (cb) {
-  plugins.sequence('clean:dist', 'wiredep', 'usemin', 'copy:sprite', cb);
+  plugins.sequence('clean:dist', 'wiredep', 'usemin', 'copy:sprite', 'copy:video', cb);
 });
 
 gulp.task('deploy', function (cb) {
