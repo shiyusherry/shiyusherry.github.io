@@ -1,0 +1,1 @@
+!function(){"use strict";$.stellar.positionProperty.position={setTop:function(t,o,s){t.css("top",o)},setLeft:function(t,o,s){t.css("left",o)}},$.stellar({positionProperty:"position"})}();
