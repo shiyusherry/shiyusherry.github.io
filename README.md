@@ -1,4 +1,4 @@
-# sy-personal
+# Sherry Shi's Personal Website
 
 Yu Shi's perosonal website to show herself.
 
