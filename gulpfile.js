@@ -41,7 +41,7 @@ gulp.task('usemin', function () {
 
 gulp.task('ghPages', function () {
   return gulp.src('./dist/**/*')
-    .pipe(plugins.ghPages());
+    .pipe(plugins.ghPages({ branch: 'master' }));
 });
 
 gulp.task('build', function (cb) {
