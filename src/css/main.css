@@ -1,21 +1,37 @@
 body {
-    background-image: linear-gradient(135deg, #5ea3f3 0%, rgb(54, 45, 55) 100%)
-}
-
-.sy-sprite {
-    position: fixed;
-    left:30%;
-    margin-left: -50px;
-    top: 100px;
-}
-
-.word-item {
-    width: 500px;
+    background-image: linear-gradient(135deg, #5ea3f3 0%, rgb(54, 45, 55) 100%);
     text-shadow: 3px 3px 5px rgba(0,0,0,0.15);
     font-family: open sans;
     font-size: 18px;
     color: rgba(255,255,255,0.8);
     line-height: 140%;
     font-weight: 100;
+}
+
+.section {
     margin-bottom: 20px;
+}
+
+.part {
+    margin-bottom: 40px;
+}
+
+.title {
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+video {
+    padding: 10px;
+}
+
+img {
+    padding: 10px;
+    max-width: 200px !important;
+}
+
+@media (min-width: 992px) {
+    .brand {
+        position: fixed;
+    }
 }

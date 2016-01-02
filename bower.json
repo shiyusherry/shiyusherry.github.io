@@ -14,7 +14,15 @@
     "tests"
   ],
   "dependencies": {
-    "jquery.stellar": "~0.6.2",
-    "normalize.css": "~3.0.3"
+    "bootstrap": "~3.3.6",
+    "hover": "Hover#~2.0.2"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "dist/css/bootstrap.css",
+        "dist/js/bootstrap.js"
+      ]
+    }
   }
 }
