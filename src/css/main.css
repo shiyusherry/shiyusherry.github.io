@@ -1,5 +1,7 @@
 body {
-    background-image: linear-gradient(135deg, #5ea3f3 0%, rgb(54, 45, 55) 100%);
+    /*background-image: linear-gradient(135deg, #5ea3f3 0%, rgb(54, 45, 55) 100%);*/
+    background-image: url("../sprite/bg.jpg");
+    background-size: cover;
     text-shadow: 3px 3px 5px rgba(0,0,0,0.15);
     font-family: open sans;
     font-size: 18px;
@@ -9,11 +11,14 @@ body {
 }
 
 .section {
+    text-align: justify;
+    text-justify: inter-ideograph;
     margin-bottom: 20px;
 }
 
 .part {
     margin-bottom: 40px;
+    padding: 10px;
 }
 
 .title {
@@ -22,16 +27,22 @@ body {
 }
 
 video {
-    padding: 10px;
+    padding: 10px 0;
 }
 
 img {
-    padding: 10px;
-    max-width: 200px !important;
+    margin-bottom: 10px;
 }
 
 @media (min-width: 992px) {
     .brand {
         position: fixed;
+    }
+}
+
+@media (max-width: 992px) {
+    img {
+        max-width: 200px !important;
+        margin-left: 20px;
     }
 }
