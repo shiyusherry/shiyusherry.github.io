@@ -1,13 +1,3 @@
-#rectangle {
-    position: absolute;
-    width: 2px;
-    height: 4800px;
-    top: 200px;
-    background: rgba(255, 255, 255, 0.298039);
-    left: 37%;
-    margin-left: -1px;
-}
-
 .sun1 {
     display: inline-block;
     background-image: url("../sprite/sun1.png");
