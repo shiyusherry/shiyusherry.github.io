@@ -8,9 +8,14 @@ gulp.task('wiredep', function () {
     .pipe(gulp.dest('src'));
 });
 
-gulp.task('copy:sprite', function () {
+gulp.task('copy:sprite', ['copy:favicon'], function () {
   return gulp.src('./src/sprite/**/*')
     .pipe(gulp.dest('dist/sprite'));
+});
+
+gulp.task('copy:favicon', function () {
+  return gulp.src('./src/favicon.ico')
+    .pipe(gulp.dest('dist'));
 });
 
 gulp.task('copy:video', function () {
